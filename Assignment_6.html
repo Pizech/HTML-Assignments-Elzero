@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Assignment 6</title>
+        <meta charset="UTF-8">
+    <head>
+    <body>
+        <h1>Form</h1>
+        <form action="test.py" method="post">
+            <Label>Username</Label>
+            <input type="text" required placeholder="Username" name="username">
+            <br>
+            <hr>
+            <Label>Password</Label>
+            <input type="password" required placeholder="Password" name="password">
+            <br>
+            <hr>
+            <Label>Mobile</Label>
+            <input type="text" pattern="^[0-9\(\)\+]+$" required placeholder="Mobile" name="mobile">
+            <br>
+            <hr>
+            <Label>Email</Label>
+            <input type="email" required placeholder="Email" name="email">
+            <br>
+            <hr>
+            <Label>Subject</Label>
+            <input type="text" list="subject" placeholder="Subject" name="subject">
+            <br>
+            <hr>
+            <input type="submit" value="Send data">
+            <input type="hidden" value="123">
+            <input type="reset" value="Empty Form">
+            <hr>
+            <hr>
+            <input type="range" min="100" max="500" step="50" value="400">
+        </form>
+    </body>
+
+
+
+
+</html>
